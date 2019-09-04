@@ -1,0 +1,46 @@
+html,
+body,
+input {
+  background: black;
+  color: white;
+  font-family: monospace;
+}
+
+body {
+  font-size: 16px;
+}
+
+#appRoot {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content {
+  width: 500px;
+}
+
+#terminal {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 97%;
+  height: 25px;
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+}
+
+#terminal:focus {
+  outline: none;
+}
+
+.command {
+  color: #a7ffeb;
+}
+
+.hint {
+  color: #f4ff81;
+}
